@@ -22,4 +22,5 @@ ul li {
 }
 .tlogo {
   white-space: nowrap;
+  user-select: none;
 }
