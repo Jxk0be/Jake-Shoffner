@@ -20,3 +20,6 @@
 ul li {
   user-select: none;
 }
+.tlogo {
+  white-space: nowrap;
+}
