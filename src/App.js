@@ -1,3 +1,4 @@
+import About from './components/About'
 import Contact from './components/Contact'
 import Courses from './components/Courses'
 import Footer from './components/Footer'
@@ -10,8 +11,9 @@ function App() {
   return (
     <div>
       <Navbar />
-      {/* <Hero />
-      <Projects />
+      <Hero />
+      <About /> 
+      {/* <Projects />
       <Courses />
       <Resume />
       <Contact />
