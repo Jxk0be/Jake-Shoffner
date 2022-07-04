@@ -8,10 +8,10 @@ module.exports = {
       'sm': '640px',
       // => @media (min-width: 576px) { ... }
 
-      'md': '1275px',
+      'md': '1100px',
       // => @media (min-width: 960px) { ... }
 
-      'lg': '1440px',
+      'lg': '2000px',
       // => @media (min-width: 1440px) { ... }
     },
     extend: {},

@@ -20,7 +20,7 @@
     background: #4A545C;
   }
 }
-ul li {
+ul li, a {
   user-select: none;
 }
 .tlogo {
