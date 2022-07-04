@@ -10,7 +10,6 @@
     font-family: 'Raleway', sans-serif;
   }
   body {
-    background-color: #121212;
     margin: 0;
     padding: 0;
   }
@@ -28,6 +27,6 @@ ul li {
   white-space: nowrap;
   user-select: none;
 }
-.turd {
+body.active-modal {
   overflow-y: hidden;
 }

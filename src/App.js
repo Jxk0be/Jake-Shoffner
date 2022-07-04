@@ -1,11 +1,11 @@
 import About from './components/About'
 import Contact from './components/Contact'
-import Courses from './components/Courses'
 import Footer from './components/Footer'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import Projects from './components/Projects'
 import Resume from './components/Resume'
+import Skills from './components/Skills'
 
 function App() {
   return (
@@ -13,11 +13,11 @@ function App() {
       <Navbar />
       <Hero />
       <About /> 
-      {/* <Projects />
-      <Courses />
+      <Projects />
+      <Skills />
       <Resume />
       <Contact />
-      <Footer /> */}
+      <Footer />
     </div>
   );
 }
