@@ -1,6 +1,6 @@
 const Resume = () => {
   return (
-    <div>
+    <div className="cret">
       <div className='text-white' id='resume'>
         <div className='w-full h-screen flex text-[#dad8d8] flex-row text-2xl uppercase justify-center items-center text-center z-1'>
           <div className="w-1/3">

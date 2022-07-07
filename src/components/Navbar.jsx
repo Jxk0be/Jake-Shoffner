@@ -51,7 +51,7 @@ const Navbar = () => {
       </div>
 
       {!nav ? '' : (
-            <ul className='fixed top-0 left-0 w-full flex text-[#dad8d8] flex-col text-2xl uppercase justify-center items-center text-center h-screen md:hidden bg-gradient-to-r from-[#070b0a] to-[#141515]'>
+            <ul className='fixed top-0 left-0 w-full flex text-[#dad8d8] flex-col text-2xl uppercase justify-center items-center text-center h-screen md:hidden bg-gradient-to-r from-[#070b0a] to-[#141515] z-10'>
               <li className='hover:text-[#00C896] transition ease-in-out duration-250 cursor-pointer my-6 w-auto'>
                 <Link onClick={() => {setNav(!nav)}} to="/" spy={true} smooth={true} duration={500}><span className='text-[#00C896]'>0000: </span>Home</Link>
               </li>

@@ -34,3 +34,10 @@ body.active-modal {
   width: 0;  /* Remove scrollbar space */
   background: transparent;  /* Optional: just make scrollbar invisible */
 }
+.cret {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.no_wrap {
+  white-space: nowrap;
+}
