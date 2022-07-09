@@ -41,6 +41,6 @@ body.active-modal {
 .no_wrap {
   white-space: nowrap;
 }
-p a {
-  user-select: all;
+.eww {
+  user-select: none;
 }
