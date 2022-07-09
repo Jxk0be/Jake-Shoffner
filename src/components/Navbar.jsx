@@ -21,24 +21,24 @@ const Navbar = () => {
         <div className='mx-10 my-8 flex justify-between justify-items-center flex-row top-0 left-0'>
             <h1 className='tlogo text-[#00C896] text-sm z-0'>LOGO (OR MAYBE MY NAME?)</h1>
 
-            <div className='hidden md:flex'>
+            <div className='hidden md:flex lg:flex'>
               <ul className='flex text-[#dad8d8] flex-nowrap shrink-0 text-sm'>
-                <li className='mx-7 hover:text-[#00C896] transition ease-in-out duration-250 cursor-pointer'>
+                <li className='mx-4 hover:text-[#00C896] transition ease-in-out duration-250 cursor-pointer'>
                   <Link onClick={() => {setNav(!nav)}} to="/" spy={true} smooth={true} duration={500}><span className='text-[#00C896]'>0000: </span>Home</Link>
                 </li>
-                <li className='mx-7 hover:text-[#00C896] transition ease-in-out duration-250 cursor-pointer'>
+                <li className='mx-4 hover:text-[#00C896] transition ease-in-out duration-250 cursor-pointer'>
                   <Link onClick={() => {setNav(!nav)}} to="about" spy={true} smooth={true} duration={500}><span className='text-[#00C896]'>0001: </span>About</Link>
                 </li>
-                <li className='mx-7 hover:text-[#00C896] transition ease-in-out duration-250 cursor-pointer'>
+                <li className='mx-4 hover:text-[#00C896] transition ease-in-out duration-250 cursor-pointer'>
                   <Link onClick={() => {setNav(!nav)}} to="projects" spy={true} smooth={true} duration={500}><span className='text-[#00C896]'>0010: </span>Projects</Link>
                 </li>
-                <li className='mx-7 hover:text-[#00C896] transition ease-in-out duration-250 cursor-pointer'>
+                <li className='mx-4 hover:text-[#00C896] transition ease-in-out duration-250 cursor-pointer'>
                   <Link onClick={() => {setNav(!nav)}} to="skills" spy={true} smooth={true} duration={500}><span className='text-[#00C896]'>0011: </span>Skills</Link>
                 </li>
-                <li className='mx-7 hover:text-[#00C896] transition ease-in-out duration-250 cursor-pointer'>
+                <li className='mx-4 hover:text-[#00C896] transition ease-in-out duration-250 cursor-pointer'>
                   <Link onClick={() => {setNav(!nav)}} to="resume" spy={true} smooth={true} duration={500}><span className='text-[#00C896]'>0100: </span>Resume</Link>
                 </li>
-                <li className='ml-7 hover:text-[#00C896] transition ease-in-out duration-250 cursor-pointer'>
+                <li className='ml-4 hover:text-[#00C896] transition ease-in-out duration-250 cursor-pointer'>
                   <Link onClick={() => {setNav(!nav)}} to="contact" spy={true} smooth={true} duration={500}><span className='text-[#00C896]'>0101: </span>Contact</Link>
                 </li>
               </ul>

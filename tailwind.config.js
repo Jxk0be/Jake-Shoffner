@@ -8,11 +8,13 @@ module.exports = {
       'sm': '300px',
       // => @media (min-width: 640px) { ... }
 
-      'md': '600px',
+      'md': '940px',
       // => @media (min-width: 110px) { ... }
 
-      'lg': '2000px',
+      'lg': '1500px',
       // => @media (min-width: 1440px) { ... }
+
+      'xlg': '2500px',
     },
     extend: {
       backgroundImage: {
