@@ -115,16 +115,21 @@ const Projects = () => {
                   </div>
                   <div className='flex flex-col justify-center items-center mx-10 my-8 lg:text-2xl'>
                     <p>
-                      The Superball Challenge was a great experience for my coding development.
-                      I was able to learn a lot about algorithms and just what that meant in the coding world.
-                      Though at first, the project seemed a bit over my head, I was able to harness that feeling
-                      to push through and thoroughly get my feet wet.
+                    My personal website! Created mainly with React and TailwindCSS, with some additional packages such as:
+                      <a href="https://www.npmjs.com/package/react-typed" target="_blank" rel="noreferrer" className="text-[#00C896] hover:text-[#14a883] cursor-pointer transition ease-in-out duration-250"> React-Typed</a>, 
+                      <a href="https://react-icons.github.io/react-icons" target="_blank" rel="noreferrer" className="text-[#00C896] hover:text-[#14a883] cursor-pointer transition ease-in-out duration-250"> React-Icons</a>, and
+                      <a href="https://www.npmjs.com/package/react-scroll" target="_blank" rel="noreferrer" className="text-[#00C896] hover:text-[#14a883] cursor-pointer transition ease-in-out duration-250"> React-Scroll</a>.
                     </p>
-                    <p className='my-10'>
-                      The Superball Challenge was a great experience for my coding development.
-                      I was able to learn a lot about algorithms and just what that meant in the coding world.
-                      Though at first, the project seemed a bit over my head, I was able to harness that feeling
-                      to push through and thoroughly get my feet wet.
+                    <p className='mt-8'>
+                      This was my first time ever using <span className='font-semibold'>React</span> or <span className='font-semibold'>Tailwind</span>. I mostly aimed at learning the 
+                      basics of React, thus I took advantage of Tailwind’s easy-to-use styling to put my 
+                      major focus on the mechanics of React. From this, I was able to learn a great deal about 
+                      React, and still have a fairly flashy UI without having to spend hours using regular CSS.
+                    </p>
+                    <p className='my-8'>
+                      I learned to take advantage of the React library to create a web application 
+                      very quickly and easily. I learned about the structure of a React app and then 
+                      some more library-specific functionalities such as hooks.
                     </p>
                   </div>
                 </div>
