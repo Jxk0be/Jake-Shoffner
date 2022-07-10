@@ -210,13 +210,19 @@ const Projects = () => {
                   </div>
                   <div className='flex flex-col justify-center items-center mx-10 my-8 lg:text-2xl'>
                     <p>
-
+                      A fun little program that takes a randomly generated maze of walls and finds a valid 
+                      path from the start to finish. Completely coded in C++ 98.
                     </p>
                     <p className='mt-8'>
-                      
+                      The first algorithm I learned, when being introduced to <span className='font-semibold'>graphs</span>, was <span className='font-semibold'>depth-first search (DFS)</span>. 
+                      I had to figure out how to read-in walls of a given maze and create the graph and corresponding 
+                      edges accordingly. Then, I was able to implement DFS to find a valid path from the beginning of the 
+                      maze to the end.
                     </p>
                     <p className='my-8'>
-
+                      I was able to learn how to represent a graph with code. I also learned how to traverse the graph until 
+                      we reach the desired endpoint by using DFS. This was a great introduction to the more important algorithms 
+                      I’ve learned.
                     </p>
                   </div>
                 </div>
@@ -235,16 +241,17 @@ const Projects = () => {
                   </div>
                   <div className='flex flex-col justify-center items-center mx-10 my-8 lg:text-2xl'>
                     <p>
-                      The Superball Challenge was a great experience for my coding development.
-                      I was able to learn a lot about algorithms and just what that meant in the coding world.
-                      Though at first, the project seemed a bit over my head, I was able to harness that feeling
-                      to push through and thoroughly get my feet wet.
+                      A C++ CLI program that represents an old windows game “Superball”. The assignment from my algorithms 
+                      course, we were to code a program that would go for high scores.
                     </p>
-                    <p className='my-10'>
-                      The Superball Challenge was a great experience for my coding development.
-                      I was able to learn a lot about algorithms and just what that meant in the coding world.
-                      Though at first, the project seemed a bit over my head, I was able to harness that feeling
-                      to push through and thoroughly get my feet wet.
+                    <p className='mt-8'>
+                      The goal of the game was to score as many times as possible, but certain things must be true for a player 
+                      to have the ability to score. It was super fun to get creative and try to understand the best way to get 
+                      consistent high scores. I was able to make this program by using a <a href="https://bitbucket.org/jimplank/plank-disjoint-sets/src/master/" target="_blank" rel="noreferrer" className="text-[#00C896] hover:text-[#14a883] cursor-pointer transition ease-in-out duration-250">disjoint sets</a> data structure from my professor.
+                    </p>
+                    <p className='my-8'>
+                      I really liked this project as an introduction to algorithms. I was able to sharpen my problem-solving skills by 
+                      having to think of the most effective ways to get the highest score possible for any given game board.
                     </p>
                   </div>
                 </div>
