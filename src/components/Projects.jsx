@@ -144,20 +144,24 @@ const Projects = () => {
                     <BiX onClick = {() => setDice(!letterDice)} className='text-[#00C896] text-[60px] cursor-pointer m-5 hover:text-[#14a883]'/>
                   </div>
                   <div className='flex flex-row justify-start items-center mx-8 text-red-500 text-xl font-medium lg:text-2xl'>
-                    <h1>Pure C++</h1>
+                    <h1>C++ 98</h1>
                   </div>
                   <div className='flex flex-col justify-center items-center mx-10 my-8 lg:text-2xl'>
                     <p>
-                      The Superball Challenge was a great experience for my coding development.
-                      I was able to learn a lot about algorithms and just what that meant in the coding world.
-                      Though at first, the project seemed a bit over my head, I was able to harness that feeling
-                      to push through and thoroughly get my feet wet.
+                      A small algorithmic program focusing on network flow. Written 
+                      entirely in C++ 98 for my data structures and algorithms course.
                     </p>
-                    <p className='my-10'>
-                      The Superball Challenge was a great experience for my coding development.
-                      I was able to learn a lot about algorithms and just what that meant in the coding world.
-                      Though at first, the project seemed a bit over my head, I was able to harness that feeling
-                      to push through and thoroughly get my feet wet.
+                    <p className='mt-8'>
+                      During my course on algorithms, I was taught about <span className='font-semibold'>network flow</span>. 
+                      I needed to create a program that would take in a dice with x-sides. 
+                      Each side would represent a letter. I then would take in words and see 
+                      if they could be spelled, making sure to not use a side more than once 
+                      per word. I did this by using a <span className='font-semibold'>modified version of Dijkstra’s algorithm</span>.
+                    </p>
+                    <p className='my-8'>
+                      I learned a lot about network flow, and how it can be used to solve 
+                      problems one might not think of when first learning the algorithm. 
+                      This was a very difficult, yet rewarding project.
                     </p>
                   </div>
                 </div>
@@ -172,20 +176,22 @@ const Projects = () => {
                     <BiX onClick = {() => setCity(!cityMap)} className='text-[#00C896] text-[60px] cursor-pointer m-5 hover:text-[#14a883]'/>
                   </div>
                   <div className='flex flex-row justify-start items-center mx-8 text-red-500 text-xl font-medium lg:text-2xl'>
-                    <h1>Pure C++</h1>
+                    <h1>C++ 98</h1>
                   </div>
                   <div className='flex flex-col justify-center items-center mx-10 my-8 lg:text-2xl'>
                     <p>
-                      The Superball Challenge was a great experience for my coding development.
-                      I was able to learn a lot about algorithms and just what that meant in the coding world.
-                      Though at first, the project seemed a bit over my head, I was able to harness that feeling
-                      to push through and thoroughly get my feet wet.
+                      A program that takes in a city’s intersections and stop lights, then finds the 
+                      shortest time-specific path from start to finish. Written in C++ 98.
                     </p>
-                    <p className='my-10'>
-                      The Superball Challenge was a great experience for my coding development.
-                      I was able to learn a lot about algorithms and just what that meant in the coding world.
-                      Though at first, the project seemed a bit over my head, I was able to harness that feeling
-                      to push through and thoroughly get my feet wet.
+                    <p className='mt-8'>
+                      For my algorithms course, this project was to learn <span className='font-semibold'>Dijkstra’s algorithm</span> and see 
+                      how it could be implemented in a real-world scenario. This program resembles how a 
+                      GPS might find the <span className='font-semibold'>shortest path</span> and calculate ETAs.
+                    </p>
+                    <p className='my-8'>
+                      I learned about Dijkstra’s algorithm, a modified version of breadth-first 
+                      search (BFS). This also forced me to learn about how to keep track of weighted 
+                      paths during a search of a graph.
                     </p>
                   </div>
                 </div>
@@ -200,20 +206,17 @@ const Projects = () => {
                     <BiX onClick = {() => setMaze(!randMaze)} className='text-[#00C896] text-[60px] cursor-pointer m-5 hover:text-[#14a883]'/>
                   </div>
                   <div className='flex flex-row justify-start items-center mx-8 text-red-500 text-xl font-medium lg:text-2xl'>
-                    <h1>Pure C++</h1>
+                    <h1>C++ 98</h1>
                   </div>
                   <div className='flex flex-col justify-center items-center mx-10 my-8 lg:text-2xl'>
                     <p>
-                      The Superball Challenge was a great experience for my coding development.
-                      I was able to learn a lot about algorithms and just what that meant in the coding world.
-                      Though at first, the project seemed a bit over my head, I was able to harness that feeling
-                      to push through and thoroughly get my feet wet.
+
                     </p>
-                    <p className='my-10'>
-                      The Superball Challenge was a great experience for my coding development.
-                      I was able to learn a lot about algorithms and just what that meant in the coding world.
-                      Though at first, the project seemed a bit over my head, I was able to harness that feeling
-                      to push through and thoroughly get my feet wet.
+                    <p className='mt-8'>
+                      
+                    </p>
+                    <p className='my-8'>
+
                     </p>
                   </div>
                 </div>
@@ -228,7 +231,7 @@ const Projects = () => {
                     <BiX onClick = {() => setSB(!sprBall)} className='text-[#00C896] text-[60px] cursor-pointer m-5 hover:text-[#14a883]'/>
                   </div>
                   <div className='flex flex-row justify-start items-center mx-8 text-red-500 text-xl font-medium lg:text-2xl'>
-                    <h1>Pure C++</h1>
+                    <h1>C++ 98</h1>
                   </div>
                   <div className='flex flex-col justify-center items-center mx-10 my-8 lg:text-2xl'>
                     <p>
