@@ -6,15 +6,6 @@ import {Link} from 'react-scroll'
 const Navbar = () => {
   const [nav, setNav] = useState(false)
 
-  /* FOR THE TIME BEING, WE WILL COMMENT THIS OUT FOR THE SAKE OF BUGS */
-  
-  // if (nav) {
-  //   document.body.classList.add('active-modal');
-  // } 
-  // else {
-  //   document.body.classList.remove('active-modal');
-  // }
-
   return (
     <div>
       <div className='fixed w-full bg-gradient-to-r from-[#070b0a] to-[#141515] z-20'>
