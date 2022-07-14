@@ -73,12 +73,12 @@ const Resume = () => {
       <div className='text-white' id='resume'>
         <div className='w-full h-screen flex text-[#dad8d8] flex-row text-2xl justify-center items-center text-center z-1'>
 
-          <div className="w-1/4 flex flex-row justify-center items-center">
+          <div className="w-1/4 flex flex-row justify-center items-center mr-[-85px]">
             <ul className="w-fit">
-              <li className="my-5 cursor-pointer hover:text-[#00C896] hover:scale-105 transition ease-in-out duration-100" onClick={() => DSACheck()}>
+              <li id = "dalol" className="my-5 cursor-pointer hover:text-[#00C896] hover:scale-105 transition ease-in-out duration-100" onClick={() => DSACheck()}>
                 <span className="text-[#00C896]">0000:</span> COSC 302
               </li>
-              <li className="my-5 cursor-pointer hover:text-[#00C896] hover:scale-105 transition ease-in-out duration-100" onClick={() => aDSACheck()}>
+              <li id ="dacringe" className="my-5 cursor-pointer hover:text-[#00C896] hover:scale-105 transition ease-in-out duration-100" onClick={() => aDSACheck()}>
                 <span className="text-[#00C896]">0001:</span> COSC 202
               </li>
               <li className="my-5 cursor-pointer hover:text-[#00C896] hover:scale-105 transition ease-in-out duration-100" onClick={() => SCCheck()}>
@@ -95,38 +95,132 @@ const Resume = () => {
           
 
             {!DSA ? '' : (
-              <div className="w-1/2 text-left shadow-md shadow-[#00C896] h-2/4 cret bg-[#141615] rounded-lg hover:scale-105 transition ease-in-out duration-250">
-                <h1 className="mt-9 mx-7 text-3xl font-semibold"><span className="text-[#00C896]">0000:</span> Algorithms</h1>
-              </div>
-            )}
-            {!aDSA ? '' : (
-              <div className="w-1/2 text-left shadow-md shadow-[#00C896] h-2/4 cret bg-[#141615] rounded-lg hover:scale-105 transition ease-in-out duration-250">
-                <h1 className="mt-9 mx-7 text-3xl font-semibold"><span className="text-[#00C896]">0001:</span> Data Structures</h1>
-              </div>
-            )}
-            {!SC ? '' : (
               <div className="w-1/2 text-left shadow-md shadow-[#00C896] h-2/4 cret rounded-lg hover:scale-105 transition ease-in-out duration-250">
-                <h1 className="mt-9 mx-7 text-3xl font-semibold"><span className="text-[#00C896]">0010:</span> Scientific Computing</h1>
-                
-                <div className="w-full flex flex-col mx-7 mt-7 text-xl">
-                  <p className="mb-4">info</p>
-                  <p className="w-11/12">
+                <h1 className="mt-8 mx-8 text-3xl font-semibold"><span className="text-[#00C896]">0000:</span> Algorithms</h1>
+                <div className="w-full flex flex-col mx-8 text-xl mt-4">
+                  <div className='flex flex-row justify-start items-center text-red-500 text-xl font-medium lg:text-2xl'>
+                    <h1>COSC 302</h1>
+                  </div>
+                  <p className="w-11/12 mt-4 ml-3">
                     The design, analysis, and implementation of numerical algorithms for solving 
                     problems in science and engineering. Emphasis on program design, including data 
                     structures, computational complexity, scientific computing environments, and 
                     high-performance software packages.
                   </p>
+                  <p className="w-11/12 mt-4 ml-3">
+                    The design, analysis, and implementation of numerical algorithms for solving 
+                    problems in science and engineering. Emphasis on program design, including data 
+                    structures, computational complexity, scientific computing environments, and 
+                    high-performance software packages.
+                  </p>
+                  <p className="w-11/12 mt-4 ml-3">
+                    The design, analysis, and implementation of numerical algorithms for solving 
+                    problems in science and engineering.
+                  </p>
+                </div>
+              </div>
+            )}
+            {!aDSA ? '' : (
+              <div className="w-1/2 text-left shadow-md shadow-[#00C896] h-2/4 cret rounded-lg hover:scale-105 transition ease-in-out duration-250">
+                <h1 className="mt-8 mx-8 text-3xl font-semibold"><span className="text-[#00C896]">0001:</span> Data Structures</h1>
+                <div className="w-full flex flex-col mx-8 text-xl mt-4">
+                  <div className='flex flex-row justify-start items-center text-red-500 text-xl font-medium lg:text-2xl'>
+                    <h1>COSC 202</h1>
+                  </div>
+                  <p className="w-11/12 mt-4 ml-3">
+                    The design, analysis, and implementation of numerical algorithms for solving 
+                    problems in science and engineering. Emphasis on program design, including data 
+                    structures, computational complexity, scientific computing environments, and 
+                    high-performance software packages.
+                  </p>
+                  <p className="w-11/12 mt-4 ml-3">
+                    The design, analysis, and implementation of numerical algorithms for solving 
+                    problems in science and engineering. Emphasis on program design, including data 
+                    structures, computational complexity, scientific computing environments, and 
+                    high-performance software packages.
+                  </p>
+                  <p className="w-11/12 mt-4 ml-3">
+                    The design, analysis, and implementation of numerical algorithms for solving 
+                    problems in science and engineering.
+                  </p>
+                </div>
+              </div>
+            )}
+            {!SC ? '' : (
+              <div className="w-1/2 text-left shadow-md shadow-[#00C896] h-2/4 cret rounded-lg hover:scale-105 transition ease-in-out duration-250">
+                <h1 className="mt-8 mx-8 text-3xl font-semibold"><span className="text-[#00C896]">0010:</span> Scientific Computing</h1>
+                <div className="w-full flex flex-col mx-8 text-xl mt-4">
+                  <div className='flex flex-row justify-start items-center text-red-500 text-xl font-medium lg:text-2xl'>
+                    <h1>COSC 370</h1>
+                  </div>
+                  <p className="w-11/12 mt-4 ml-3">
+                    The design, analysis, and implementation of numerical algorithms for solving 
+                    problems in science and engineering. Emphasis on program design, including data 
+                    structures, computational complexity, scientific computing environments, and 
+                    high-performance software packages.
+                  </p>
+                  <p className="w-11/12 mt-4 ml-3">
+                    Used Python in order to create scientific programs relating to matrix algebra. From this, I was able to get a better
+                    understanding of Python, as well as matrix algebra and just what we were solving for. This enabled me to
+                    see the power of scientific computing.
+                  </p>
+                  <p className="w-11/12 mt-4 ml-3">
+                    The design, analysis, and implementation of numerical algorithms for solving 
+                    problems in science and engineering.
+                  </p>
                 </div>
               </div>
             )}
            {!DM ? '' : (
-              <div className="w-1/2 text-left shadow-md shadow-[#00C896] h-2/4 cret bg-[#141615] rounded-lg hover:scale-105 transition ease-in-out duration-250">
-                <h1 className="mt-9 mx-7 text-3xl font-semibold"><span className="text-[#00C896]">0011:</span> Discrete Math</h1>
+              <div className="w-1/2 text-left shadow-md shadow-[#00C896] h-2/4 cret rounded-lg hover:scale-105 transition ease-in-out duration-250">
+                <h1 className="mt-8 mx-8 text-3xl font-semibold"><span className="text-[#00C896]">0011:</span> Discrete Math</h1>
+                <div className="w-full flex flex-col mx-8 text-xl mt-4">
+                  <div className='flex flex-row justify-start items-center text-red-500 text-xl font-medium lg:text-2xl'>
+                    <h1>COSC 311</h1>
+                  </div>
+                  <p className="w-11/12 mt-4 ml-3">
+                    The design, analysis, and implementation of numerical algorithms for solving 
+                    problems in science and engineering. Emphasis on program design, including data 
+                    structures, computational complexity, scientific computing environments, and 
+                    high-performance software packages.
+                  </p>
+                  <p className="w-11/12 mt-4 ml-3">
+                    The design, analysis, and implementation of numerical algorithms for solving 
+                    problems in science and engineering. Emphasis on program design, including data 
+                    structures, computational complexity, scientific computing environments, and 
+                    high-performance software packages.
+                  </p>
+                  <p className="w-11/12 mt-4 ml-3">
+                    The design, analysis, and implementation of numerical algorithms for solving 
+                    problems in science and engineering.
+                  </p>
+                </div>
               </div>
             )}
             {!CO ? '' : (
-              <div className="w-1/2 text-left shadow-md shadow-[#00C896] h-2/4 cret bg-[#141615] rounded-lg hover:scale-105 transition ease-in-out duration-250">
-                <h1 className="mt-9 mx-7 text-3xl font-semibold"><span className="text-[#00C896]">0100:</span> Computer Organization</h1>
+              <div className="w-1/2 text-left shadow-md shadow-[#00C896] h-2/4 cret rounded-lg hover:scale-105 transition ease-in-out duration-250">
+                <h1 className="mt-8 mx-8 text-3xl font-semibold"><span className="text-[#00C896]">0100:</span> Computer Organization</h1>
+                <div className="w-full flex flex-col mx-8 text-xl mt-4">
+                  <div className='flex flex-row justify-start items-center text-red-500 text-xl font-medium lg:text-2xl'>
+                    <h1>COSC 130</h1>
+                  </div>
+                  <p className="w-11/12 mt-4 ml-3">
+                    The design, analysis, and implementation of numerical algorithms for solving 
+                    problems in science and engineering. Emphasis on program design, including data 
+                    structures, computational complexity, scientific computing environments, and 
+                    high-performance software packages.
+                  </p>
+                  <p className="w-11/12 mt-4 ml-3">
+                    The design, analysis, and implementation of numerical algorithms for solving 
+                    problems in science and engineering. Emphasis on program design, including data 
+                    structures, computational complexity, scientific computing environments, and 
+                    high-performance software packages.
+                  </p>
+                  <p className="w-11/12 mt-4 ml-3">
+                    The design, analysis, and implementation of numerical algorithms for solving 
+                    problems in science and engineering.
+                  </p>
+                </div>
               </div>
             )}           
         </div>
