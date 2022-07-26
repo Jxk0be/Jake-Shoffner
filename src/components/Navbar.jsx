@@ -10,7 +10,7 @@ const Navbar = () => {
     <div>
       <div className='fixed w-full bg-gradient-to-r from-[#070b0a] to-[#141515] z-20'>
         <div className='mx-10 my-8 flex justify-between justify-items-center flex-row top-0 left-0'>
-            <h1 className='tlogo text-[#00C896] text-sm z-0'>LOGO (OR MAYBE MY NAME?)</h1>
+            <h1 className='tlogo text-white text-sm z-0 uppercase font-bold'>Jake Shoffner</h1>
 
             <div className='hidden md:flex lg:flex'>
               <ul className='flex text-[#dad8d8] flex-nowrap shrink-0 text-sm'>
