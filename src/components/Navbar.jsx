@@ -2,6 +2,7 @@ import React from 'react'
 import { BiMenuAltRight, BiArrowBack } from "react-icons/bi";
 import { useState} from 'react';
 import {Link} from 'react-scroll'
+import res from '../JS_Resume_22.pdf'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false)
@@ -26,10 +27,10 @@ const Navbar = () => {
                   <Link onClick={() => {setNav(!nav)}} to="skills" spy={true} smooth={true} duration={500}><span className='text-[#00C896]'>0011: </span>Skills</Link>
                 </li>
                 <li className='mx-4 hover:text-[#00C896] transition ease-in-out duration-250 cursor-pointer'>
-                  <Link onClick={() => {setNav(!nav)}} to="resume" spy={true} smooth={true} duration={500}><span className='text-[#00C896]'>0100: </span>Resume</Link>
+                  <Link onClick={() => {setNav(!nav)}} to="contact" spy={true} smooth={true} duration={500}><span className='text-[#00C896]'>0100: </span>Contact</Link>
                 </li>
                 <li className='ml-4 hover:text-[#00C896] transition ease-in-out duration-250 cursor-pointer'>
-                  <Link onClick={() => {setNav(!nav)}} to="contact" spy={true} smooth={true} duration={500}><span className='text-[#00C896]'>0101: </span>Contact</Link>
+                  <a href={res} target="_blank" rel="noreferrer"><span className='text-[#00C896]'>0101: </span>Resume</a>
                 </li>
               </ul>
             </div>
@@ -55,10 +56,10 @@ const Navbar = () => {
                 <Link onClick={() => {setNav(!nav)}} to="skills" spy={true} smooth={true} duration={500}><span className='text-[#00C896]'>0011: </span>Skills</Link>
               </li>
               <li className='hover:text-[#00C896] transition ease-in-out duration-250 cursor-pointer my-6 w-auto'>
-                <Link onClick={() => {setNav(!nav)}} to="resume" spy={true} smooth={true} duration={500}><span className='text-[#00C896]'>0100: </span>Resume</Link>
+                <Link onClick={() => {setNav(!nav)}} to="contact" spy={true} smooth={true} duration={500}><span className='text-[#00C896]'>0100: </span>Contact</Link>
               </li>
               <li className='hover:text-[#00C896] transition ease-in-out duration-250 cursor-pointer my-6 w-auto'>
-                <Link onClick={() => {setNav(!nav)}} to="contact" spy={true} smooth={true} duration={500}><span className='text-[#00C896]'>0101: </span>Contact</Link>
+                <Link onClick={() => {setNav(!nav)}} to="" spy={true} smooth={true} duration={500}><span className='text-[#00C896]'>0101: </span>Resume</Link>
               </li>
           </ul>
       )}
