@@ -20,7 +20,7 @@ const Projects = () => {
     <div className='cret'>
       <div id='projects' className='text-white w-full h-screen'>
         <div className='w-full h-screen flex text-[#dad8d8] flex-col text-2xl justify-center items-center z-1'>
-        <div className='md:text-4xl uppercase font-semibold mb-12 text-3xl'><h1><span className='text-[#00C896]'>0010:</span> Projects</h1></div>
+          <div className='md:text-4xl uppercase font-semibold mb-12 text-3xl'><h1><span className='text-[#00C896]'>0010:</span> Projects</h1></div>
           <div className='grid grid-cols-2 md:grid-cols-3 md:gap-x-10 md:gap-y-20 md:w-4/5 w-4/5 gap-y-10 gap-x-10 lg:w-3/5'>
 
             <div className='bg-[#1d1d1d] hover:scale-105 transition ease-in-out duration-250 rounded-md shadow-md shadow-[#00C896]'>

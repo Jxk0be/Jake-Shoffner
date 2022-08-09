@@ -9,9 +9,8 @@ const Navbar = () => {
   return (
     <div>
       <div className='fixed w-full bg-gradient-to-r from-[#070b0a] to-[#141515] z-20'>
-        <div className='mx-10 my-8 flex justify-between justify-items-center flex-row top-0 left-0'>
-            <h1 className='tlogo text-white text-sm z-0 uppercase font-bold'>Jake Shoffner</h1>
-
+        <div className='mx-10 my-8 flex justify-between justify-items-center flex-row top-0 left-0 '>
+          <Link className='hover:text-[#00C896] transition ease-in-out duration-250 cursor-pointer tlogo text-white text-sm z-0 uppercase font-semibold' to="/" spy={true} smooth={true} duration={500}>Jake Shoffner</Link>
             <div className='hidden md:flex lg:flex'>
               <ul className='flex text-[#dad8d8] flex-nowrap shrink-0 text-sm'>
                 <li className='mx-4 hover:text-[#00C896] transition ease-in-out duration-250 cursor-pointer'>
