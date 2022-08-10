@@ -5,7 +5,10 @@ import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import Projects from './components/Projects'
 import Skills from './components/Skills'
-
+/* 
+  RUN: 'npm run deploy' 
+  every time you want to update the publication of the website
+*/
 function App() {
   return (
     <div>
