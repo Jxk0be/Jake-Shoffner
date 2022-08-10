@@ -59,7 +59,7 @@ const Navbar = () => {
                 <Link onClick={() => {setNav(!nav)}} to="contact" spy={true} smooth={true} duration={500}><span className='text-[#00C896]'>0100: </span>Contact</Link>
               </li>
               <li className='hover:text-[#00C896] transition ease-in-out duration-250 cursor-pointer my-6 w-auto'>
-                <Link onClick={() => {setNav(!nav)}} to="" spy={true} smooth={true} duration={500}><span className='text-[#00C896]'>0101: </span>Resume</Link>
+                <a href={res} target="_blank" rel="noreferrer"><span className='text-[#00C896]'>0101: </span>Resume</a>
               </li>
           </ul>
       )}

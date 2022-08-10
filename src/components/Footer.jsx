@@ -3,9 +3,13 @@ import React from 'react'
 const Footer = () => {
   return (
     <div className='cret'>
-      <div className='text-white bg-[#dad8d8]'>
-        <div className='w-full h-[20vh] flex text-[#dad8d8] flex-col text-2xl uppercase justify-center items-center text-center z-1'>
-          <h1>FOOTER (SHIT COLOR TO EASILY SEE FOR TIME BEING)</h1>
+      <div className="w-full h-[10vh] text-white text-2xl flex flex-col justify-center items-center bg-[#1d1d1d]">
+        <div className='w-full flex text-[#dad8d8] flex-col text-xl justify-center items-center z-1'>
+          <div className='grid grid-cols-1 w-full lg:w-7/12 md:text-base md:w-3/5 text-center text-base'>
+            <div>
+              © Copyright 2022 Jake Shoffner.
+            </div>
+          </div>
         </div>
       </div>
     </div>
