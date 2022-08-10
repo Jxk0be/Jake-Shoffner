@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Jake-Shoffner/static/css/main.998d29d7.css",
+    "main.js": "/Jake-Shoffner/static/js/main.760f10a6.js",
+    "static/media/react.png": "/Jake-Shoffner/static/media/react.f6c03d5b8e2321ba8634.png",
+    "static/media/R.png": "/Jake-Shoffner/static/media/R.f781b96892867f4d9e30.png",
+    "static/media/JS.png": "/Jake-Shoffner/static/media/JS.c38087c63780764150ab.png",
+    "static/media/python.png": "/Jake-Shoffner/static/media/python.1f32c2206751cf71374f.png",
+    "static/media/Personal_Site.png": "/Jake-Shoffner/static/media/Personal_Site.82d9125b20b01c3d485d.png",
+    "static/media/C++.png": "/Jake-Shoffner/static/media/C++.5185ce2f4c945505ee4f.png",
+    "static/media/JS_Resume_22.pdf": "/Jake-Shoffner/static/media/JS_Resume_22.6c5027751314be79d7f7.pdf",
+    "static/media/tailwind.png": "/Jake-Shoffner/static/media/tailwind.ff896300927a7281e227.png",
+    "static/media/City_Map_Route.png": "/Jake-Shoffner/static/media/City_Map_Route.adc36e45a62f65f0e798.png",
+    "static/media/Maze_Solving.png": "/Jake-Shoffner/static/media/Maze_Solving.4db8a5a0f124b6b36cdd.png",
+    "static/media/Letter_Dice_Network_Flow.png": "/Jake-Shoffner/static/media/Letter_Dice_Network_Flow.75f6dc38ed5efad932a7.png",
+    "static/media/Superball_Challenge.png": "/Jake-Shoffner/static/media/Superball_Challenge.100672fdb432704c18b0.png",
+    "static/media/Anomie_API.png": "/Jake-Shoffner/static/media/Anomie_API.fc36123d7756be2303e5.png",
+    "index.html": "/Jake-Shoffner/index.html",
+    "main.998d29d7.css.map": "/Jake-Shoffner/static/css/main.998d29d7.css.map",
+    "main.760f10a6.js.map": "/Jake-Shoffner/static/js/main.760f10a6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.998d29d7.css",
+    "static/js/main.760f10a6.js"
+  ]
+}
