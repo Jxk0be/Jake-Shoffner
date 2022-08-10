@@ -35,7 +35,7 @@ const Projects = () => {
               <img src={Site} alt='personal site project'/>
               <div className='flex flex-row justify-around'>
                 <h1 onClick={() => setpersWeb(!persWeb)} className="eww hidden md:flex md:my-5 hover:text-[#00C896] cursor-pointer transition ease-in-out duration-250">Info</h1>
-                <a href="https://jxk0be.me/" target="_blank" rel="noreferrer" className="md:my-5 my-1 hover:text-[#00C896] cursor-pointer transition ease-in-out duration-250">Here</a>
+                <a href="https://jxk0be.me/Jake-Shoffner" target="_blank" rel="noreferrer" className="md:my-5 my-1 hover:text-[#00C896] cursor-pointer transition ease-in-out duration-250">Here</a>
               </div>
             </div>
 
