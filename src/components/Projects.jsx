@@ -43,7 +43,7 @@ const Projects = () => {
               <img src={Letter} alt='letter project'/>
               <div className='flex flex-row justify-around'>
                 <h1 onClick={() => setDice(!letterDice)} className="eww hidden md:flex md:my-5 hover:text-[#00C896] cursor-pointer transition ease-in-out duration-250">Info</h1>
-                <a href="https://github.com/Jxk0be/Dice-Word-Creator-Program" target="_blank" rel="noreferrer" className="md:my-5 my-1 hover:text-[#00C896] cursor-pointer transition ease-in-out duration-250">Github</a>
+                <a href="" target="_blank" rel="noreferrer" className="md:my-5 my-1 hover:text-[#00C896] cursor-pointer transition ease-in-out duration-250">Private</a>
               </div>
             </div>
 
@@ -51,7 +51,7 @@ const Projects = () => {
               <img src={City} alt='city project'/>
               <div className='flex flex-row justify-around'>
                 <h1 onClick={() => setCity(!cityMap)} className="eww hidden md:flex md:my-5 hover:text-[#00C896] cursor-pointer transition ease-in-out duration-250">Info</h1>
-                <a href="https://github.com/Jxk0be/City-Route-Finding-Program" target="_blank" rel="noreferrer" className="md:my-5 my-1 hover:text-[#00C896] cursor-pointer transition ease-in-out duration-250">Github</a>
+                <a href="" target="_blank" rel="noreferrer" className="md:my-5 my-1 hover:text-[#00C896] cursor-pointer transition ease-in-out duration-250">Private</a>
               </div>
             </div>
 
@@ -59,7 +59,7 @@ const Projects = () => {
               <img src={Maze} alt='maze project'/>
               <div className='flex flex-row justify-around'>
                 <h1 onClick={() => setMaze(!randMaze)} className="eww hidden md:flex md:my-5 hover:text-[#00C896] cursor-pointer transition ease-in-out duration-250">Info</h1>
-                <a href="https://github.com/Jxk0be/Random-Maze-Solver" target="_blank" rel="noreferrer" className="md:my-5 my-1 hover:text-[#00C896] cursor-pointer transition ease-in-out duration-250">Github</a>
+                <a href="" target="_blank" rel="noreferrer" className="md:my-5 my-1 hover:text-[#00C896] cursor-pointer transition ease-in-out duration-250">Private</a>
               </div>
             </div>
 
@@ -67,7 +67,7 @@ const Projects = () => {
               <img src={Superball} alt='superball project'/>
               <div className='flex flex-row justify-around'>
                 <h1 onClick={() => setSB(!sprBall)} className="eww hidden md:flex md:my-5 hover:text-[#00C896] cursor-pointer transition ease-in-out duration-250">Info</h1>
-                <a href="https://github.com/Jxk0be/SB-High-Score-Challenge" target="_blank" rel="noreferrer" className="md:my-5 my-1 hover:text-[#00C896] cursor-pointer transition ease-in-out duration-250">Github</a>
+                <a href="" target="_blank" rel="noreferrer" className="md:my-5 my-1 hover:text-[#00C896] cursor-pointer transition ease-in-out duration-250">Private</a>
               </div>
             </div>
 
