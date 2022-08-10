@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Jake-Shoffner/static/css/main.faefa6b5.css",
-    "main.js": "/Jake-Shoffner/static/js/main.c1ba9954.js",
+    "main.css": "/Jake-Shoffner/static/css/main.820f35df.css",
+    "main.js": "/Jake-Shoffner/static/js/main.d4b40dc6.js",
     "static/media/react.png": "/Jake-Shoffner/static/media/react.f6c03d5b8e2321ba8634.png",
     "static/media/R.png": "/Jake-Shoffner/static/media/R.f781b96892867f4d9e30.png",
     "static/media/JS.png": "/Jake-Shoffner/static/media/JS.c38087c63780764150ab.png",
@@ -16,11 +16,11 @@
     "static/media/Superball_Challenge.png": "/Jake-Shoffner/static/media/Superball_Challenge.100672fdb432704c18b0.png",
     "static/media/Anomie_API.png": "/Jake-Shoffner/static/media/Anomie_API.fc36123d7756be2303e5.png",
     "index.html": "/Jake-Shoffner/index.html",
-    "main.faefa6b5.css.map": "/Jake-Shoffner/static/css/main.faefa6b5.css.map",
-    "main.c1ba9954.js.map": "/Jake-Shoffner/static/js/main.c1ba9954.js.map"
+    "main.820f35df.css.map": "/Jake-Shoffner/static/css/main.820f35df.css.map",
+    "main.d4b40dc6.js.map": "/Jake-Shoffner/static/js/main.d4b40dc6.js.map"
   },
   "entrypoints": [
-    "static/css/main.faefa6b5.css",
-    "static/js/main.c1ba9954.js"
+    "static/css/main.820f35df.css",
+    "static/js/main.d4b40dc6.js"
   ]
 }
