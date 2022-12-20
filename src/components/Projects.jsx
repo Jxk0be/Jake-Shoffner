@@ -9,6 +9,7 @@ import { useState } from 'react'
 import { BiX } from "react-icons/bi";
 
 const Projects = () => {
+  /* All relevant states and their setting functions */
   const [anomieInfo, setAnInfo] = useState(false);
   const [persWeb, setpersWeb] = useState(false);
   const [letterDice, setDice] = useState(false);
@@ -21,6 +22,8 @@ const Projects = () => {
       <div id='projects' className='text-white w-full h-screen'>
         <div className='w-full h-screen flex text-[#dad8d8] flex-col text-2xl justify-center items-center z-1'>
           <div className='md:text-4xl uppercase font-semibold mb-12 text-3xl'><h1><span className='text-[#00C896]'>0010:</span> Projects</h1></div>
+
+          {/* Grid of all my projects, changing the amount of rows depending on the width of the browser */}
           <div className='grid grid-cols-2 md:grid-cols-3 md:gap-x-10 md:gap-y-20 md:w-4/5 w-4/5 gap-y-10 gap-x-10 lg:w-3/5'>
 
             <div className='bg-[#1d1d1d] hover:scale-105 transition ease-in-out duration-250 rounded-md shadow-md shadow-[#00C896]'>
@@ -73,6 +76,11 @@ const Projects = () => {
 
           </div>
 
+            {/* 
+                Everything from here onward is saying: 
+                "if the Info button is hit, we need to display info" 
+                "if the Exit button is hit, we need to close the info display"
+            */}
             {!anomieInfo ? '' : (
               <div className='md:flex flex-row justify-center items-center absolute h-screen w-full left-0 z-10 hidden'>
                 <div className='cret bg-[#121614] rounded-lg absolute hover:scale-105 transition ease-in-out duration-250 xlg:w-3/12 xlg:h-3/5 lg:w-1/2 lg:h-8/12 md:w-8/12 md:h-8/12'>

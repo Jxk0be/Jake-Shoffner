@@ -12,6 +12,8 @@ const Navbar = () => {
       <div className='fixed w-full bg-gradient-to-r from-[#070b0a] to-[#141515] z-20'>
         <div className='mx-10 my-8 flex justify-between justify-items-center flex-row top-0 left-0 '>
           <Link className='hover:text-[#00C896] transition ease-in-out duration-250 cursor-pointer tlogo text-white text-sm z-0 uppercase font-semibold' to="/" spy={true} smooth={true} duration={500}>Jake Shoffner</Link>
+
+            {/* This section of code is displays the navbar in desktop view only */}
             <div className='hidden md:flex lg:flex'>
               <ul className='flex text-[#dad8d8] flex-nowrap shrink-0 text-sm'>
                 <li className='mx-4 hover:text-[#00C896] transition ease-in-out duration-250 cursor-pointer'>
@@ -35,12 +37,15 @@ const Navbar = () => {
               </ul>
             </div>
 
+            {/* This section of code appears when the screen is in mobile view. To open and close the navigation menu. */}
             <div className='md:hidden flex z-10' onClick={() => {setNav(!nav)}}>
               {nav ? <BiArrowBack className='text-[#00C896] text-[40px] cursor-pointer'/> : <BiMenuAltRight className='text-[#00C896] text-[40px] cursor-pointer'/>}
             </div>
+
         </div>
       </div>
 
+      {/* If the navabr is false, we do nothing, if the navbar is set to true, then we need to display the menu in mobile view */}
       {!nav ? '' : (
             <ul className='fixed top-0 left-0 w-full flex text-[#dad8d8] flex-col text-2xl uppercase justify-center items-center text-center h-screen md:hidden bg-gradient-to-r from-[#070b0a] to-[#141515] z-10'>
               <li className='hover:text-[#00C896] transition ease-in-out duration-250 cursor-pointer my-6 w-auto'>

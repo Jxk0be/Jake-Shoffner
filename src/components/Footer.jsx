@@ -7,7 +7,7 @@ const Footer = () => {
         <div className='w-full flex text-[#dad8d8] flex-col text-xl justify-center items-center z-1'>
           <div className='grid grid-cols-1 w-full lg:w-7/12 md:text-base md:w-3/5 text-center text-base'>
             <div>
-              © Copyright 2022 Jake Shoffner.
+              Created by Jake Shoffner.
             </div>
           </div>
         </div>

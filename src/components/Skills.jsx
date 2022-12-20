@@ -11,6 +11,10 @@ const Skills = () => {
       <div id='skills' className='text-white w-full h-screen'>
         <div className='w-full h-screen flex text-[#dad8d8] flex-col text-lg md:text-2xl justify-center items-center z-1'>
           <div className='md:text-4xl uppercase font-semibold mb-12 text-3xl'><h1><span className='text-[#00C896]'>0011:</span> Skills</h1></div>
+
+          {/* Same as the "Projects" section, I am displaying a grid of skills that changes 
+              based on the width of the browser 
+          */}
           <div className='grid grid-cols-2 md:grid-cols-3 md:gap-x-10 md:gap-y-20 md:w-7/12 w-8/12 gap-y-10 gap-x-10 lg:w-5/12 xlg:w-1/3'>
 
             <div className='bg-[#121614] hover:scale-105 transition ease-in-out duration-250 rounded-md shadow-md shadow-[#659ad2] px-10'>
@@ -30,7 +34,6 @@ const Skills = () => {
                 </div>
               </a>
             </div>
-
 
             <div className='bg-[#121614] hover:scale-105 transition ease-in-out duration-250 rounded-md shadow-md shadow-[#ffd140] px-10'>
               <a href="https://docs.python.org/3/" target="_blank" rel="noreferrer">
@@ -58,7 +61,6 @@ const Skills = () => {
                 </div>
               </a>
             </div>
-
 
             <div className='bg-[#121614] hover:scale-105 transition ease-in-out duration-250 rounded-md shadow-md shadow-[#2167ba] px-10'>
               <a href="https://www.r-project.org/other-docs.html" target="_blank" rel="noreferrer">
